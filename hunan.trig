@@ -1,0 +1,18 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cogim: <http://cadal.cogim.online/resource> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+
+<http://cadal.cogim.online/museum/graph> {
+<http://www.wikidata.org/entity/Q5942029> rdf:type crm:E74_Group .
+<http://www.wikidata.org/entity/Q5942029> rdfs:label  "湖南博物馆"@zh .
+<http://www.wikidata.org/entity/Q5942029> rdfs:label  "Hunan Museum"@en .
+<http://www.wikidata.org/entity/Q5942029> crm:P1_is_identified_by <http://cadal.cogim.online/resource/E42_Identifier/4a0b6cc2-2211-4312-8348-d47bdde9c61e> . 
+<http://cadal.cogim.online/resource/E42_Identifier/4a0b6cc2-2211-4312-8348-d47bdde9c61e> <http://www.w3.org/2000/01/rdf-schema#label> "20210001" . 
+<http://cadal.cogim.online/resource/E42_Identifier/4a0b6cc2-2211-4312-8348-d47bdde9c61e> rdf:type crm:E42_Identifier .
+<http://cadal.cogim.online/resource/E41_Appellation/fdec000-d24f-4e93-a775-1ad11ea8afe4> rdf:type crm:E41_Appellation .
+<http://www.wikidata.org/entity/Q5942029> crm:P1_is_identified_by <http://cadal.cogim.online/resource/E41_Appellation/fdec000-d24f-4e93-a775-1ad11ea8afe4> .
+<http://cadal.cogim.online/resource/E41_Appellation/fdec000-d24f-4e93-a775-1ad11ea8afe4> rdfs:label  "湖南博物馆"@zh .
+<http://cadal.cogim.online/resource/E41_Appellation/fdec000-d24f-4e93-a775-1ad11ea8afe4> rdfs:label  "Hunan Museum"@en .
+
+}

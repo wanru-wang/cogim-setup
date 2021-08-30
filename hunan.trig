@@ -14,5 +14,4 @@
 <http://www.wikidata.org/entity/Q5942029> crm:P1_is_identified_by <http://cadal.cogim.online/resource/E41_Appellation/fdec000-d24f-4e93-a775-1ad11ea8afe4> .
 <http://cadal.cogim.online/resource/E41_Appellation/fdec000-d24f-4e93-a775-1ad11ea8afe4> rdfs:label  "湖南博物馆"@zh .
 <http://cadal.cogim.online/resource/E41_Appellation/fdec000-d24f-4e93-a775-1ad11ea8afe4> rdfs:label  "Hunan Museum"@en .
-
 }

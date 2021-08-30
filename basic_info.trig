@@ -1,0 +1,61 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cogim: <http://cadal.cogim.online/resource> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+
+<http://cadal.cogim.online/basicinfo/graph> {
+
+<http://www.wikidata.org/entity/Q34379> rdf:type crm:E55_Type .
+<http://www.wikidata.org/entity/Q34379> rdfs:label "乐器"@zh .
+<http://www.wikidata.org/entity/Q34379> rdfs:label "Instrument"@zh .
+<http://www.wikidata.org/entity/Q287> rdf:type crm:E57_Material .
+<http://www.wikidata.org/entity/Q287> rdfs:label "Wood"@en .
+<http://www.wikidata.org/entity/Q287> rdfs:label "木"@zh. 
+<http://cadal.cogim.online/resource/E55_Type/03001> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/03001> rdfs:label "文物"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/03001> rdfs:label "Cultural relics"@en . 
+<http://cadal.cogim.online/resource/E55_Type/03002> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/03002> rdfs:label "一般文物"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/03002> rdfs:label "Cultural relics"@en . 
+<http://cadal.cogim.online/resource/E55_Type/03002> crm:P127_has_broader_term <http://cadal.cogim.online/resource/E55_Type/03001> . 
+<http://cadal.cogim.online/resource/E55_Type/03002> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/03002> rdfs:label "一般文物"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/03002> rdfs:label "Ordinary cultural relics"@en . 
+<http://cadal.cogim.online/resource/E55_Type/03002> crm:P127_has_broader_term <http://cadal.cogim.online/resource/E55_Type/03001> . 
+<http://cadal.cogim.online/resource/E55_Type/03003> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/03003> rdfs:label "一级文物"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/03003> rdfs:label "First-class cultural relics"@en . 
+<http://cadal.cogim.online/resource/E55_Type/03003> crm:P127_has_broader_term <http://cadal.cogim.online/resource/E55_Type/03001> . 
+<http://cadal.cogim.online/resource/E55_Type/03004> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/03004> rdfs:label "二级文物"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/03004> rdfs:label "Seconde-class cultural relics"@en . 
+<http://cadal.cogim.online/resource/E55_Type/03004> crm:P127_has_broader_term <http://cadal.cogim.online/resource/E55_Type/03001> . 
+<http://cadal.cogim.online/resource/E55_Type/03005> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/03005> rdfs:label "三级文物"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/03005> rdfs:label "Third-class cultural relics"@en . 
+<http://cadal.cogim.online/resource/E55_Type/03005> crm:P127_has_broader_term <http://cadal.cogim.online/resource/E55_Type/03001> . 
+<http://cadal.cogim.online/resource/E39_Actor/00001> rdf:type crm:E39_Actor . 
+<http://cadal.cogim.online/resource/E39_Actor/00001> rdfs:label "Anonymous"@en .
+<http://cadal.cogim.online/resource/E39_Actor/00001> rdfs:label "其他"@zh .
+<http://www.wikidata.org/entity/Q174728> rdf:type crm:E58_Measurement_Unit .
+<http://www.wikidata.org/entity/Q174728> rdfs:label      "厘米"@zh     .
+<http://www.wikidata.org/entity/Q174728> rdfs:label      "centimetre"@en     .
+<http://www.wikidata.org/entity/Q41803> rdf:type crm:E58_Measurement_Unit .
+<http://www.wikidata.org/entity/Q41803> rdfs:label      "克"@zh     .
+<http://www.wikidata.org/entity/Q41803> rdfs:label      "gram"@en     .
+<http://cadal.cogim.online/resource/E55_Type/04001> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/04001> rdfs:label "重量"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/04001> rdfs:label "Weight"@en . 
+<http://cadal.cogim.online/resource/E55_Type/04002> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/04002> rdfs:label "长度"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/04002> rdfs:label "Length"@en . 
+<http://cadal.cogim.online/resource/E55_Type/04003> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/04003> rdfs:label "宽度"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/04003> rdfs:label "Width"@en . 
+<http://cadal.cogim.online/resource/E55_Type/04004> rdf:type crm:E55_Type .
+<http://cadal.cogim.online/resource/E55_Type/04004> rdfs:label "高度"@zh . 
+<http://cadal.cogim.online/resource/E55_Type/04004> rdfs:label "Height"@en .
+
+
+
+}

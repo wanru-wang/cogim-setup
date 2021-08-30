@@ -1,0 +1,56 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cogim: <http://cadal.cogim.online/resource> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+<http://cadal.cogim.online/dynasty/graph>{
+<http://cadal.cogim.online/resource/E52_Time-Span/001> rdf:type <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://cadal.cogim.online/resource/E52_Time-Span/001> crm:P82a_begin_of_the_begin  "618" .
+<http://cadal.cogim.online/resource/E52_Time-Span/001> crm:P82b_end_of_the_end      "907" . 
+<http://cadal.cogim.online/resource/E52_Time-Span/001> rdfs:label      "唐代"@zh .
+<http://cadal.cogim.online/resource/E52_Time-Span/001> rdfs:label      "Tang Dynasty"@en .
+<http://cadal.cogim.online/resource/E52_Time-Span/001> crm:P78_is_identified_by <http://vocab.getty.edu/ulan/500373092>     .
+<http://cadal.cogim.online/resource/E52_Time-Span/001> crm:P79_beginning_is_qualified_by "中国历史学年代" . 
+<http://cadal.cogim.online/resource/E52_Time-Span/001> crm:P80_end_is_qualified_by "中国历史学年代" .
+<http://cadal.cogim.online/resource/E52_Time-Span/000> rdf:type <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://cadal.cogim.online/resource/E52_Time-Span/000> crm:P82a_begin_of_the_begin  "206 BCE" .
+<http://cadal.cogim.online/resource/E52_Time-Span/000> crm:P82b_end_of_the_end      "25 CE" . 
+<http://cadal.cogim.online/resource/E52_Time-Span/000> rdfs:label      "西汉"@zh .
+<http://cadal.cogim.online/resource/E52_Time-Span/000> rdfs:label      "Western Han"@en .
+<http://cadal.cogim.online/resource/E52_Time-Span/000> crm:P78_is_identified_by <http://www.wikidata.org/entity/Q1072949>     .
+<http://cadal.cogim.online/resource/E52_Time-Span/000> crm:P79_beginning_is_qualified_by "中国历史学年代" . 
+<http://cadal.cogim.online/resource/E52_Time-Span/000> crm:P80_end_is_qualified_by "中国历史学年代" .
+<http://cadal.cogim.online/resource/E52_Time-Span/002> rdf:type <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://cadal.cogim.online/resource/E52_Time-Span/002> crm:P82a_begin_of_the_begin  "1368" .
+<http://cadal.cogim.online/resource/E52_Time-Span/002> crm:P82b_end_of_the_end      "1644" . 
+<http://cadal.cogim.online/resource/E52_Time-Span/002> rdfs:label      "明"@zh .
+<http://cadal.cogim.online/resource/E52_Time-Span/002> rdfs:label      "Ming Dynasty"@en .
+<http://cadal.cogim.online/resource/E52_Time-Span/002> crm:P78_is_identified_by <http://vocab.getty.edu/ulan/500373094>     .
+<http://cadal.cogim.online/resource/E52_Time-Span/002> crm:P79_beginning_is_qualified_by "中国历史学年代" . 
+<http://cadal.cogim.online/resource/E52_Time-Span/002> crm:P80_end_is_qualified_by "中国历史学年代" .
+<http://cadal.cogim.online/resource/E52_Time-Span/003> rdf:type <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://cadal.cogim.online/resource/E52_Time-Span/003> crm:P82a_begin_of_the_begin  "1616" .
+<http://cadal.cogim.online/resource/E52_Time-Span/003> crm:P82b_end_of_the_end      "1911" . 
+<http://cadal.cogim.online/resource/E52_Time-Span/003> rdfs:label      "清"@zh .
+<http://cadal.cogim.online/resource/E52_Time-Span/003> rdfs:label      "Qing Dynasty"@en .
+<http://cadal.cogim.online/resource/E52_Time-Span/003> crm:P78_is_identified_by <http://vocab.getty.edu/ulan/500373095>     .
+<http://cadal.cogim.online/resource/E52_Time-Span/003> crm:P79_beginning_is_qualified_by "中国历史学年代" . 
+<http://cadal.cogim.online/resource/E52_Time-Span/003> crm:P80_end_is_qualified_by "中国历史学年代" .
+<http://cadal.cogim.online/resource/E52_Time-Span/999> rdf:type <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://cadal.cogim.online/resource/E52_Time-Span/999> rdfs:label      "其他朝代"@zh .
+<http://cadal.cogim.online/resource/E52_Time-Span/999> rdfs:label      "Unidentified/Other"@en .
+<http://vocab.getty.edu/ulan/500373092> rdf:type crm:E49_Time_Appellation .
+<http://vocab.getty.edu/ulan/500373092> rdfs:label      "唐代"@zh      .
+<http://vocab.getty.edu/ulan/500373092> rdfs:label      "Tang Dynasty"@en      .
+<http://vocab.getty.edu/ulan/500373095> rdf:type crm:E49_Time_Appellation .
+<http://vocab.getty.edu/ulan/500373095> rdfs:label      "清代"@zh      .
+<http://vocab.getty.edu/ulan/500373095> rdfs:label      "Qing Dynasty"@en      .
+<http://vocab.getty.edu/ulan/500373094> rdf:type crm:E49_Time_Appellation .
+<http://vocab.getty.edu/ulan/500373094> rdfs:label      "明代"@zh      .
+<http://vocab.getty.edu/ulan/500373094> rdfs:label      "Ming Dynasty"@en      .
+<http://www.wikidata.org/entity/Q1072949> rdf:type crm:E49_Time_Appellation .
+<http://www.wikidata.org/entity/Q1072949> rdfs:label      "西汉"@zh      .
+<http://www.wikidata.org/entity/Q1072949> rdfs:label      "Western Han"@en      .
+<http://cadal.cogim.online/resource/E49_Time_Appellation/001> rdf:type crm:E49_Time_Appellation .
+<http://cadal.cogim.online/resource/E49_Time_Appellation/001> rdfs:label      "其他朝代"@zh      .
+<http://cadal.cogim.online/resource/E49_Time_Appellation/001> rdfs:label      "Unidentified/Other"@en      .
+}
